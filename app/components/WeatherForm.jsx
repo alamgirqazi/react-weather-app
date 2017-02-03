@@ -26,7 +26,9 @@ this.props.onSearch(location);
         <form onSubmit={this.onFormSubmit}>
           <input type="text" ref="location"/>
       
-        <button>Get Button</button>  </form>
+      <button className=" button expanded hollow" href="#">Get Weather</button>
+        
+        </form>
       </div>
     );
   }
