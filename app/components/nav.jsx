@@ -58,7 +58,7 @@ return (
        
        <ul className="menu">
          <li>
-         <input type="search" placeholder="Search weather"/>
+         <input type="search" placeholder="Search weather by City"/>
          </li>
        
        <li>
