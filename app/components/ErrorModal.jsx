@@ -20,6 +20,13 @@ var ErrorModal = React.createClass({
       <div id="error-modal" className="reveal tiny text-center" data-reveal="">
         <h4>{title}</h4>
         <p>City Not Found !</p>
+        <p>please try another city name e.g</p>
+        <p>
+          Austin <br/>
+          New York <br/>
+          Rawalpindi <br/>
+        </p>
+
         <p>
           <button className="button hollow" data-close="">
             Okay
@@ -28,7 +35,7 @@ var ErrorModal = React.createClass({
       </div>
     );
 
-    var $modal = $(ReactDOMServer.renderToString(modalMarkup));
+    var $modal = $(ReactDOMServer.renderToString(modelMarkup));
 $(ReactDOM.findDOMNode(this)).html($modal);
 
     var modal = new Foundation.Reveal($('#error-modal'));
